@@ -8,8 +8,9 @@
 	},
 	"scripts": {
 		"test": "npm run test",
-		"build": "webpack --config webpack.config.js --mode=development",
-		"start": "webpack-dev-server --config webpack.config.js --mode=development"
+		"clean": "rimraf dist",
+		"build": "npm run clean && webpack --config webpack.config.js --mode=production",
+		"start": "webpack-dev-server --config webpack.config.js --hot --mode=development"
 	},
 	"repository": {
 		"type": "git",
@@ -18,7 +19,8 @@
 	"keywords": [
 		"css",
 		"stylesheets",
-		"bem"
+		"bem",
+		"sass"
 	],
 	"author": "Grant Sykes",
 	"license": "MIT",
@@ -27,8 +29,11 @@
 	},
 	"homepage": "https://github.com/codernaut85/solar-css#readme",
 	"dependencies": {
+		"copy-webpack-plugin": "^4.5.1",
 		"css-loader": "^0.28.10",
+		"html-webpack-plugin": "^3.0.6",
 		"node-sass": "^4.7.2",
+		"rimraf": "^2.6.2",
 		"sass": "^1.0.0-beta.5.3",
 		"sass-loader": "^6.0.7",
 		"style-loader": "^0.20.3",
