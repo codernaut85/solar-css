@@ -1,0 +1,55 @@
+
+/*------------------------------------*\
+    #Buttons
+\*------------------------------------*/
+
+[class*="button--"] {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.button--mega {
+    font-size: 3rem;
+}
+
+.button--huge {
+    font-size: 1.5rem;
+}
+
+.button--large {
+    font-size: 1.25rem;
+}
+
+.button--small {
+    font-size: 0.75rem;
+}
+
+.button--tiny {
+    font-size: 0.5rem;
+}
+
+.button--default {
+    background: #f9f9f9;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.button--danger {
+    background: #dd2222;
+    color: #fff
+}
+
+.button--warning {
+    background: #f0bb2d;
+    color: #fff
+}
+
+.button--okay {
+    background: #22aa22;
+    color: #fff
+}

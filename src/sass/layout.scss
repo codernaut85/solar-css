@@ -1,0 +1,15 @@
+
+/*------------------------------------*\
+    #Layout
+\*------------------------------------*/
+
+[class*="wrapper--"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper--inner {
+    background-color: #fff;
+    max-width: 1200px;
+    padding: 40px;
+}
