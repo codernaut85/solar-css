@@ -13,8 +13,6 @@ module.exports = {
 		filename: "[name].js"
 	},
 
-	watch: true,
-
 	devServer: {
 		publicPath: "/",
 		contentBase: "./dist",
