@@ -3,15 +3,26 @@
 	#Buttons
 \*------------------------------------*/
 
+@import "variables.scss";
+
+.button,
 [class*="button--"] {
+	background: $midGrey;
 	border: 0;
 	border-radius: 4px;
+	color: #333;
 	display: inline-block;
 	padding: 10px 15px;
 	margin: 20px 20px 20px 0;
 }
 
 .button {
+
+	&--default {
+		border: 1px solid #ccc;
+		background: $lightGrey;
+	}
+
 	&--mega {
 		font-size: 3rem;
 	}
@@ -32,24 +43,18 @@
 		font-size: 0.5rem;
 	}
 
-	&--default {
-		background: #f9f9f9;
-		color: #333;
-		border: 1px solid #ccc;
-	}
-
 	&--danger {
-		background: #dd2222;
+		background: $dangerRed;
 		color: #fff
 	}
 
 	&--warning {
-		background: #f0bb2d;
+		background: $warningYellow;
 		color: #fff
 	}
 
 	&--okay {
-		background: #22aa22;
+		background: $okayGreen;
 		color: #fff
 	}
 }
