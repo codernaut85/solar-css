@@ -1,4 +1,4 @@
 solar-css
 =========
 
-Solar CSS Framework
+Solar CSS - A Modern CSS Framework by Grant Sykes
