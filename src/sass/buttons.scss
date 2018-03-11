@@ -14,6 +14,11 @@
 	display: inline-block;
 	padding: 10px 15px;
 	margin: 20px 20px 20px 0;
+
+	&:hover,
+	&:focus {
+		background-color: darken($midGrey, 15%);
+	}
 }
 
 .button {
@@ -21,6 +26,11 @@
 	&--default {
 		border: 1px solid #ccc;
 		background: $lightGrey;
+
+		&:hover,
+		&:focus {
+			background-color: darken($lightGrey, 15%);
+		}
 	}
 
 	&--mega {
@@ -45,17 +55,32 @@
 
 	&--danger {
 		background: $dangerRed;
-		color: #fff
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			background-color: darken($dangerRed, 15%);
+		}
 	}
 
 	&--warning {
 		background: $warningYellow;
-		color: #fff
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			background-color: darken($warningYellow, 15%);
+		}
 	}
 
 	&--okay {
 		background: $okayGreen;
-		color: #fff
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			background-color: darken($okayGreen, 15%);
+		}
 	}
 }
 
