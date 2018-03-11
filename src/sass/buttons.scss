@@ -1,57 +1,57 @@
 
 /*------------------------------------*\
-    #Buttons
+	#Buttons
 \*------------------------------------*/
 
 [class*="button--"] {
-    border: 0;
-    border-radius: 4px;
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 20px 20px 20px 0;
+	border: 0;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 20px 20px 20px 0;
 }
 
 .button {
-    &--mega {
-        font-size: 3rem;
-    }
+	&--mega {
+		font-size: 3rem;
+	}
 
-    &--huge {
-        font-size: 1.5rem;
-    }
+	&--huge {
+		font-size: 1.5rem;
+	}
 
-    &--large {
-        font-size: 1.25rem;
-    }
+	&--large {
+		font-size: 1.25rem;
+	}
 
-    &--small {
-        font-size: 0.75rem;
-    }
+	&--small {
+		font-size: 0.75rem;
+	}
 
-    &--tiny {
-        font-size: 0.5rem;
-    }
+	&--tiny {
+		font-size: 0.5rem;
+	}
 
-    &--default {
-        background: #f9f9f9;
-        color: #333;
-        border: 1px solid #ccc;
-    }
+	&--default {
+		background: #f9f9f9;
+		color: #333;
+		border: 1px solid #ccc;
+	}
 
-    &--danger {
-        background: #dd2222;
-        color: #fff
-    }
+	&--danger {
+		background: #dd2222;
+		color: #fff
+	}
 
-    &--warning {
-        background: #f0bb2d;
-        color: #fff
-    }
+	&--warning {
+		background: #f0bb2d;
+		color: #fff
+	}
 
-    &--okay {
-        background: #22aa22;
-        color: #fff
-    }
+	&--okay {
+		background: #22aa22;
+		color: #fff
+	}
 }
 
 
