@@ -27,7 +27,7 @@ module.exports = {
 
 	plugins: [
 		new CopyWebpackPlugin([
-			{ from: "static/*.html" }
+			{ from: "static/*.html", flatten: true }
 		])
 	]
 
