@@ -27,8 +27,7 @@ module.exports = {
 
 	plugins: [
 		new CopyWebpackPlugin([
-			{ from: "static/index.html" },
-			{ from: "static/typography.html" },
+			{ from: "static/*.html" }
 		])
 	]
 
